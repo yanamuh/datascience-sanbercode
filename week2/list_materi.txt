@@ -1,0 +1,5 @@
+day1 - Pandas Introduction
+day2 - Akses/Indexing dan Transformasi Data
+day3 - Reshaping Data
+day4 - Grouping Data
+day5 - Merging DataFrame
