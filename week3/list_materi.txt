@@ -1,0 +1,8 @@
+Materi : visualisasi
+
+Day1 - Pengenalan matplotlib
+Day2 - custom visualisasi
+Day3 - multiple plots
+Day4 - perbandingan kuantitatif 1
+Day5 - perbandingan kuantitatif 2
+
