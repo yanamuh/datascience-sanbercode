@@ -1,0 +1,36 @@
+KNN (k-nearest neighbor)
+- algoritma supervised learning dimana hasil dari instance yang baru, diklasifikasikan berdasarkan MAYORITAS dari kategori K-TETANGGA TERDEKAT
+
+- tujuan : klasifikasikan objek baru berdasarkan atribut dan sampel dari training data
+
+HOW IT WORKS
+- tentukan jumlah tetangkan yg akan diperhitungkan (k)
+- hitung jarak setiap tetangga terhadap rumah tersebut, lalu urutkan hasilnya berdasarkan jarak
+- ambil (k) tetangga yg paling dekat, lalu lihat masing2 dari tetangga tsb apakah termasuk ke dalam wilayah yg mana?
+
+
+MENENTUKAN K
+- jika jumlah klasifikasi genap -> k ganjil
+- jik jumlah klasifikasi ganjil -> k genap
+------------------------------------------------
+REGRESI LINEAR
+ANALISIS REGRESI LIN -> mempelajari bentuk hubungan antara 1/lebih variabel bebas (X) dengan 1 variabel tak bebas (Y).
+
+TUJUAN
+- apakah variabel prediktor (data features) signifikan dlm memprediksi variabel respon (data target)
+- variabel prediktor (data features) manakah yg signifikan dlm menjelaskan variabel respon? ini ditunjukan dg KOEF. ESTIMASI REGRESI (koef ini akan membentuk persamaan regresi)
+
+PERSAMAAN REGRESI
+lin : y = bx + a
+b = koef. arah/beta
+a = intercept
+
+untuk data yg banyak
+y(i) = b(0) + b(1)x(1) + e(i)
+b(0) = prediktor a
+b(1) = prediktor b
+e(i) = besarnya simpangan pers. garis prediktor. makin kecil e(i), pers. regresi makin baik
+
+utk mengecek pers nya udah baik atau belum, liat korelasinya (menyatakan ketepatan dan ketelitian pers. garis regresi yg diperoleh)
+
+

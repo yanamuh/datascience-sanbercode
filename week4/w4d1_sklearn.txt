@@ -1,0 +1,15 @@
+SKLEARN
+- open source lib
+- provide various tools : model fitting, data preprocessing, model selection & evaluation, etc
+
+FITTING & PREDICTING : estimator basics
+- provide built in ML algo and models (called estimator)
+- fitted to data using fit()
+
+ input fit()
+1. samples matrix x. 
+size of x typically (n_samples, n_features)
+n_samples= rows, n_features = columns
+2. target values y. (real numb for regression tasks or int for classification).
+y is usually 1d array, where the i-th entry corresponds to the target of i-th sample (row) of x
+

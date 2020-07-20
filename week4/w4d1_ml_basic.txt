@@ -1,0 +1,60 @@
+machine learning -> bidang keilmuan yang mengajarkan kita utk memberikan komputer kemampuan belajar tanpa harus diprogram secara eksplisit
+
+tipe
+- supervised learning
+- unsupervised learning
+- reinforcement learning
+
+Supervised learning : mesin belajar dari data yang telah dilabeli oleh manusia
+Unsupervised learning : mesing belajar dari data yang tidak dilabeli
+Reinforcement learning : mesin belajar melalui reward-based system
+
+=====================================================
+SUPERVISED LEARNING, type
+- regression : memprediksi nilai kontinu
+- classification : memprediksi nilai diskrit
+
+common algorithms
+- nearest neighbor / ensemble method
+- naive bayes
+- decision tree
+- linear regression
+- support vector machines (svm)
+- neural networks
+- ordinary least squares regression
+- logistic regression
+
+======================================================
+UNSUPERVISED LEARNING, goal nya adalah mampu mendeteksi pola dan men-groupkan data tersebut.
+type
+- clustering : mencari kesamaan dalam data
+- association : mencoba memahami aturan2 dan arti dari perbedaan antar grup
+
+common algorithms
+- k-means clustering
+- association rules / apriori algorithm
+- principal component analysis
+- singula value decomposition
+- independent component analysis
+
+======================================================
+REINFORCEMENT LEARNING, menggunakan hasil observasi terhadap lingkungan untuk memutuskan tindakan yang mampu memaksimalkan rewards dan meminimalkan resiko.
+reinforcement learning algorithm (the agent) -> belajar terus menerus, agent belajar dari pengalamannya terhadap suatu lingkungan hingga ia mengeksplor keseluruhan kemungkinan (full range of possible states)
+
+->  mesin secara otomatis akan menentukan perilaku idealnya (dalam konteks tertentu) sehingga mampu mengoptimasi performanya sendiri.
+
+steps in reinforcement learning
+- input state is observed by the agent
+- decision making func -> is used to make the agent perform an action
+- after the action is performed, the agent receives reward or reinforcemnet from the env
+- the state-action pair information about the reward is stored
+
+common algorithms
+- Q-learning
+- Temporal difference (TD)
+- Deep adversarial networks
+
+----
+ref : 
+https://towardsdatascience.com/types-of-machine-learning-algorithms-you-should-know-953a08248861
+https://www.newtechdojo.com/list-machine-learning-algorithms/
